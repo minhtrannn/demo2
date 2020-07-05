@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tonk</string>
+    <string name="google_sign_up">Sign up with Google</string>
+    <string name="facebook_app_id">314649119927235</string>
+    <string name="fb_login_protocol_scheme">fb314649119927235</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

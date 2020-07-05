@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "355729693312",
+    "firebase_url": "https://chatapp-38569.firebaseio.com",
+    "project_id": "chatapp-38569",
+    "storage_bucket": "chatapp-38569.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355729693312:android:fd3786d3aceacb28826465",
+        "android_client_info": {
+          "package_name": "com.example.baitaplon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355729693312-clis0r1q394ts64u1afa42qt6ur7tra9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baitaplon",
+            "certificate_hash": "0f38bb8e41d20da2aef28efd90093e8d0c746481"
+          }
+        },
+        {
+          "client_id": "355729693312-v3n7fd0hn2vcndrp8dfh4g99gq0lii2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baitaplon",
+            "certificate_hash": "2054d540d15e21977b34d0a2eb007699079cd409"
+          }
+        },
+        {
+          "client_id": "355729693312-qjoh0p6fq8ahrn153imuqrgfe690emfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baitaplon",
+            "certificate_hash": "ce68beb6e7c6c15c45c90406da5260dd10e5c0e8"
+          }
+        },
+        {
+          "client_id": "355729693312-vgf5m1f0c3hsoa8rlp6k2eq07v8s1hoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTj6l59KOExGPqij6VK4aMGFs4ItNWBY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355729693312-vgf5m1f0c3hsoa8rlp6k2eq07v8s1hoh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
