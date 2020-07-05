@@ -60,18 +60,19 @@ public class MainActivity extends AppCompatActivity {
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         reference = FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid());
 
+//        System.out.println(firebaseUser);
 //        Uri img = firebaseUser.getPhotoUrl();
 //        System.out.println(img);
-//        if(firebaseUser != null && !firebaseUser.getPhotoUrl().equals("default"))
-//        {
-//            HashMap<String,String> hashMap = new HashMap<>();
-//            hashMap.put("id",firebaseUser.getUid());
-//            hashMap.put("username",firebaseUser.getDisplayName());
-//            hashMap.put("imageURL",firebaseUser.getPhotoUrl().toString());
-//            hashMap.put("status","online");
-//            hashMap.put("search", firebaseUser.getDisplayName().toLowerCase());
-//            reference.setValue(hashMap);
-//        }
+        if(firebaseUser != null && firebaseUser.getPhotoUrl() != null)
+        {
+            HashMap<String,String> hashMap = new HashMap<>();
+            hashMap.put("id",firebaseUser.getUid());
+            hashMap.put("username",firebaseUser.getDisplayName());
+            hashMap.put("imageURL",firebaseUser.getPhotoUrl().toString());
+            hashMap.put("status","online");
+            hashMap.put("search", firebaseUser.getDisplayName().toLowerCase());
+            reference.setValue(hashMap);
+        }
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
